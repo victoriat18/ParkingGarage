@@ -1,10 +1,21 @@
 //This is car.cc
-//NOTES:
+// Defines the car functions and it's information
+
+//Header
+//*****************************************************
+// Name: Victoria Torres
+// ZId:  Z2043396 
+// CSCI 340 PE1
+// Parking Garage Assignment, creates parking garage system using deque and
+// stack to manage car arrivals and departures. 
+// 9/29/2026 
+//I certify that this is my own work and, where appropriate, an extension
+// Of the starter code provided for the assignment.
+//*****************************************************
 
 #include "car.h"
 
 // Increment the number of times the car has been moved
-
 void car:: move()
 {
     ++num_moves;

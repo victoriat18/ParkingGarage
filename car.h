@@ -1,5 +1,18 @@
 //This is car.h,
-//NOTES:
+// Defines the car class and it's information
+
+//Header
+//*****************************************************
+// Name: Victoria Torres
+// ZId:  Z2043396 
+// CSCI 340 PE1
+// Parking Garage Assignment, creates parking garage system using deque and
+// stack to manage car arrivals and departures. 
+// 9/29/2026 
+//I certify that this is my own work and, where appropriate, an extension
+// Of the starter code provided for the assignment.
+//*****************************************************
+
 
 
 #ifndef CAR_H
@@ -12,7 +25,7 @@ class car
 {
     public:
     car(int id, const std::string &license) : id(id), license(license) {}
-//increment the numbr of times that car has been moved
+    // increment the numbr of times that car has been moved
     void move();
 
     int get_num_moves() const;
@@ -23,8 +36,8 @@ class car
     
     private:
     int id;                // ID number for car
-    std::string license;  // license plat of this car
-    int num_moves = {0}; // how many times car has been moves
+    std::string license;  // license plate of this car
+    int num_moves = {0}; // how many times car has been moved
 };
 
-#endif
+#endif;
